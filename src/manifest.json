@@ -1,0 +1,8 @@
+{
+  "description": "extension boilerplate with vite and scss",
+  "manifest_version": 3,
+  "options_page": "options/index.html",
+  "action": {
+    "default_popup": "popup/index.html"
+  }
+}

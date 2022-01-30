@@ -1,0 +1,9 @@
+*~
+*.bak
+.DS_Store
+
+yarn-error.log
+
+/dist/
+/node_modules/
+/web-ext-artifacts/
