@@ -13,7 +13,7 @@
   },
   "scripts": {
     "prep-dist": "mkdirp dist",
-    "start": "vite build --watch",
+    "start": "vite build -m development --debug -l warn --watch",
     "build": "vite build",
     "packext": "web-ext build -s dist",
     "design": "npm-run-all -s prep-dist -p start open-standalone-page",
